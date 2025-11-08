@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "690d961ad1b45638636e113f",
+    "user": "690d88505680aff4ceb0c96a",
+    "createdAt": "2025-11-07T06:47:54.951Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690d961ad1b45638636e1141",
+        "createdAt": "2025-11-07T06:47:54.934Z",
+        "updatedAt": "2025-11-07T06:47:54.934Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Mock reply based on provided messages. (No OPENAI_API_KEY set)\n\nReceived:\nuser: How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690d961ad1b45638636e1142",
+        "createdAt": "2025-11-07T06:47:54.934Z",
+        "updatedAt": "2025-11-07T06:47:54.934Z"
+      }
+    ]
+  },
+  {
+    "_id": "690d961ad1b45638636e113f",
+    "user": "690d88505680aff4ceb0c96a",
+    "createdAt": "2025-11-07T06:48:00.099Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690d961ad1b45638636e1141",
+        "createdAt": "2025-11-07T06:47:54.934Z",
+        "updatedAt": "2025-11-07T06:47:54.934Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Mock reply based on provided messages. (No OPENAI_API_KEY set)\n\nReceived:\nuser: How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690d961ad1b45638636e1142",
+        "createdAt": "2025-11-07T06:47:54.934Z",
+        "updatedAt": "2025-11-07T06:47:54.934Z"
+      },
+      {
+        "role": "user",
+        "content": "Show invoices above 10000 last month",
+        "_id": "690d9620ce9255d0dc002b03",
+        "createdAt": "2025-11-07T06:48:00.085Z",
+        "updatedAt": "2025-11-07T06:48:00.085Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Mock reply based on provided messages. (No OPENAI_API_KEY set)\n\nReceived:\nuser: How do I calculate CGST and SGST for intra-state invoices?\nassistant: Mock reply based on provided messages. (No OPENAI_API_KEY set)\n\nReceived:\nuser: How do I calculate CGST and SGST for intra-state invoices?\nuser: Show invoices above 10000 last month",
+        "_id": "690d9620ce9255d0dc002b04",
+        "createdAt": "2025-11-07T06:48:00.085Z",
+        "updatedAt": "2025-11-07T06:48:00.085Z"
+      }
+    ]
+  },
+  {
+    "_id": "690da74fbecb5809979e53f7",
+    "user": "690d88505680aff4ceb0c96a",
+    "createdAt": "2025-11-07T08:01:19.129Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show invoices above 10000 last month",
+        "_id": "690da74fbecb5809979e53f9",
+        "createdAt": "2025-11-07T08:01:19.121Z",
+        "updatedAt": "2025-11-07T08:01:19.121Z"
+      },
+      {
+        "role": "assistant",
+        "content": "No invoices found above ₹10000",
+        "_id": "690da74fbecb5809979e53fa",
+        "createdAt": "2025-11-07T08:01:19.121Z",
+        "updatedAt": "2025-11-07T08:01:19.121Z"
+      }
+    ]
+  },
+  {
+    "_id": "690da74fbecb5809979e53f7",
+    "user": "690d88505680aff4ceb0c96a",
+    "createdAt": "2025-11-07T08:01:24.509Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show invoices above 10000 last month",
+        "_id": "690da74fbecb5809979e53f9",
+        "createdAt": "2025-11-07T08:01:19.121Z",
+        "updatedAt": "2025-11-07T08:01:19.121Z"
+      },
+      {
+        "role": "assistant",
+        "content": "No invoices found above ₹10000",
+        "_id": "690da74fbecb5809979e53fa",
+        "createdAt": "2025-11-07T08:01:19.121Z",
+        "updatedAt": "2025-11-07T08:01:19.121Z"
+      },
+      {
+        "role": "user",
+        "content": "How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690da75405d90cd078114bfb",
+        "createdAt": "2025-11-07T08:01:24.499Z",
+        "updatedAt": "2025-11-07T08:01:24.499Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Mock reply based on provided messages. (No OPENAI_API_KEY set)\n\nReceived:\nuser: Show invoices above 10000 last month\nassistant: No invoices found above ₹10000\nuser: How do I calculate CGST and SGST for intra-state invoices?",
+        "_id": "690da75405d90cd078114bfc",
+        "createdAt": "2025-11-07T08:01:24.499Z",
+        "updatedAt": "2025-11-07T08:01:24.499Z"
+      }
+    ]
+  }
+]
