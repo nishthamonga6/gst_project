@@ -1,0 +1,9 @@
+{
+  "name": "gst-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server run start"
+  }
+}
