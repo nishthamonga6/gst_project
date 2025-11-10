@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5001'
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000'
 
 export default function CreateBill(){
   const [form, setForm] = useState({ client:'', items:[{description:'',qty:1,price:0,tax:0}] })

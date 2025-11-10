@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5001';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
 
 export default function Dashboard({ user, setUser }) {
   const navigate = useNavigate();

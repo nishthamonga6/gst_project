@@ -2,6 +2,11 @@
   "name": "gst-client",
   "version": "1.0.0",
   "private": true,
+  "description": "Frontend Vite React app.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "vite.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

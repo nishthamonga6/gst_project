@@ -5,6 +5,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import AIChat from './pages/AIChat'
+import Profile from './pages/Profile'
 import Invoices from './pages/Invoices'
 import Clients from './pages/Clients'
 import Purchases from './pages/Purchases'
@@ -15,7 +16,7 @@ import Inventory from './pages/Inventory'
 import CreateBill from './pages/CreateBill'
 import ChatModal from './components/ChatModal'
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5001';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -70,8 +71,13 @@ function App() {
             <button className="btn-danger" onClick={async ()=>{ await fetch((import.meta.env.VITE_API_BASE||'http://localhost:5000') + '/api/admin/clear',{method:'POST',credentials:'include'}).catch(()=>{}); alert('Clear request sent') }}>Clear All Data</button>
             {user ? (
               <>
-                <div style={{color:'#0f1724',fontWeight:700}}>{user.name || user.email}</div>
-                <button className="btn secondary" onClick={async ()=>{ await fetch((import.meta.env.VITE_API_BASE||'http://localhost:5000') + '/api/auth/logout',{method:'POST',credentials:'include'}); setUser(null); window.location='/login' }}>Logout</button>
+                <div style={{display:'flex',alignItems:'center',gap:8}}>
+                  <Link to="/profile" title="My profile" style={{display:'flex',alignItems:'center',gap:8,textDecoration:'none'}}>
+                    <div style={{color:'#0f1724',fontWeight:700}}>{user.name || user.email}</div>
+                    <div style={{fontSize:12,color:'#64748b'}}>ID: {user._id}</div>
+                  </Link>
+                  <button className="btn secondary" onClick={async ()=>{ await fetch((import.meta.env.VITE_API_BASE||'http://localhost:5000') + '/api/auth/logout',{method:'POST',credentials:'include'}); setUser(null); window.location='/login' }}>Logout</button>
+                </div>
               </>
             ) : (
               <>
@@ -89,6 +95,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard user={user} setUser={setUser} />} />
           <Route path="/invoices" element={<Invoices user={user} />} />
           <Route path="/clients" element={<Clients user={user} />} />
+          <Route path="/profile" element={<Profile user={user} />} />
           <Route path="/ai" element={<AIChat user={user} />} />
           <Route path="/sales" element={<Sales user={user} />} />
           <Route path="/inventory" element={<Inventory user={user} />} />
